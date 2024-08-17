@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Figtree";
+    background-color: hsl(47, 88%, 63%);
+}
+
+
+
+.card{
+    background-color: white;
+    width: 384px;
+    height: 522px;
+    border: 1px solid black;
+    border-radius: 20px;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    padding: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.article-image{
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.category{
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 4px;
+    width: 82px;
+    height: 29px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 29px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.date{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 800;
+    color: hsl(0, 0%, 7%);
+}
+
+h1:hover, h1:active, h1:focus{
+    cursor: pointer;
+    color: hsl(47, 88%, 63%);
+
+}
+
+.description{
+    font-size: 16px;
+    font-weight: 500;
+    color: hsl(0, 0%, 42%);
+}
+
+.avatar{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.avatar img{
+    width: 32px;
+}
+
+.avatar p{
+    font-size: 14px;
+    font-weight: 800;
+    color: hsl(0, 0%, 7%);
+}
